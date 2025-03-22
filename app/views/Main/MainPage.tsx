@@ -1,11 +1,12 @@
-import Layout from '@Components/Layout.tsx';
+import Layout from '../Components/Layout';
 import HeroSection from './Components/HeroSection';
-
+import IntroSection from './Components/IntroSection';
 const MainPage = () => {
   return (
+
     <Layout>
       <HeroSection />
-      {/* 다음 섹션들 여기 추가 예정 */}
+      <IntroSection />
     </Layout>
   );
 };
