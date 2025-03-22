@@ -1,11 +1,12 @@
-import CustomButton from './components/CustomButton';
+import Layout from '@Components/Layout.tsx';
+import HeroSection from './Components/HeroSection';
 
 const MainPage = () => {
   return (
-    <div>
-      <h2>Main Page</h2>
-      <CustomButton />
-    </div>
+    <Layout>
+      <HeroSection />
+      {/* 다음 섹션들 여기 추가 예정 */}
+    </Layout>
   );
 };
 
